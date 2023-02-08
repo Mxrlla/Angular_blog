@@ -1,7 +1,7 @@
 .conteiner_big_card{
 
-  width: 40vh;
-  height: 50vh;
+  width: 50vh;
+  height: 60vh;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -9,15 +9,19 @@
   justify-content: flex-start;
   margin-left: 20px;
   margin-top: 10px;
+  padding: 20px;
+
 }
 .bigcard_title > h2{
   font-size: 19px;
   margin-top: 10px;
-  padding: 10px;
-  text-align:start;
-
 }
 .bigcard_script > p > a{
   color: grey;
-  margin-top: 10px;
+  margin-top: 5px;
 }
+.bigcard_img > img{
+  width: 70vh;
+
+}
+
