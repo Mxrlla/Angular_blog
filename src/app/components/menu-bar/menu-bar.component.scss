@@ -4,9 +4,12 @@
 .menu_container_bar> ul{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
+
 
 .menu_container_bar> ul >li{
   margin-right: 10px;
   list-style: none;
+
 }
