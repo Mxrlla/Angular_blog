@@ -1,27 +1,23 @@
 .contaneir_small_card{
- width: 50%;
+ width: 100%;
  display: flex;
- margin-left: 20px;
+ margin-left: 10px;
  padding: 20px; ;
+
 
 }
 .contaneir_small-card-content{
   display: flex;
-  align-items: center;
+  justify-content: flex-start;
+
 }
 .small_card_photo > img{
   width: 200px;
 }
 
-.small_card_title{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.small_card_title> h1{
+.small_card_title> h1 > a{
  font-size: 15px;
- padding: 10px;
-
+ padding: 15px;
 }
 
