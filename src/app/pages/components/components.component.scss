@@ -1,0 +1,29 @@
+.container_content{
+ border: 0.1px solid rgba(255, 255, 255, 0.137);
+ width: 40%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 20px;
+ margin-top: 70px;
+ border-radius: 15px;
+
+ margin-left: 10px ;
+}
+
+ .content_cover>img{
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 3px solid rgba(250, 245, 245, 0.603);
+
+}
+.content_title>h1>a{
+  font-size: 25px;
+}
+.content_description >p >a{
+  color: grey;
+  text-align: justify;
+  text-align: center;
+
+}
+
